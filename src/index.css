@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+/* Variables */
+
+/* Mix-Ins */
+
+/* General Styling */
+html {
+  font-size: calc(60% + 0.8vmin);
+  height: 100%;
+
+}
+body{
+  height: 100%;
+}
+
+* {
+  font-size: 1rem;
+}
+
+input{
+  background-color: inputFill;
+}
+
+button{
+  color: black;
+}
+
+#root{
+  height: 100%
+}
